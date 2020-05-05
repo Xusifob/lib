@@ -71,4 +71,5 @@ function detect_delimiter($csv_string)
 
     // The delimiter used is probably the one that has the more occurrence in the file
     return array_search(max($delimiters), $delimiters);
+
 }
